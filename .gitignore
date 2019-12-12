@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+socialape-client/node_modules
+socialape-client/.pnp
+socialape-client.pnp.js
+
+# testing
+socialape-client/coverage
+
+# production
+socialape-client/build
+
+# misc
+socialape-client.DS_Store
+socialape-client.env.local
+socialape-client.env.development.local
+socialape-client.env.test.local
+socialape-client.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
